@@ -1,8 +1,8 @@
 #top {
   width: 800px;
   background-color: #dcc9f4;
-  padding: 20px 0px 20px 0px;
-  text-align: center; 
+  margin: 20px auto;
+  text-align: center;
 }
 
 #top .top-child {
@@ -17,7 +17,7 @@
   height: 800px;
   background-color: #ffd9df;
   padding: 20px 0px 20px 0px;
-  text-align: center;
+  /* text-align: center; */
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -49,7 +49,7 @@ div[id^="middle-child"] {
 #bottom {
   width: 800px;
   height: 300px;
-  text-align: center;
+  /* text-align: center; */
   background-color: #87ceeb;
 }
 
