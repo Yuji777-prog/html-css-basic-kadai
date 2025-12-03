@@ -46,7 +46,7 @@ h2::before {
   color: rgb(239, 111, 139);
 }
 
-div p:nth-last-of-type(1)::first-letter {
+.contents p:nth-of-type(2)::first-letter {
   font-weight: bold;
   color: rgb(97, 206, 249);
 }
@@ -76,7 +76,7 @@ footer a:hover {
 
 @media screen and (max-width: 768px) {
   #parent {
-     display: block;
+    flex-direction: column;
   }
   h2 {
     font-size: 30px;
